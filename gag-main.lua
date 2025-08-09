@@ -44,7 +44,7 @@ getgenv().gagConfig = {
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1361999881484505118/zAQEhzjT3YA6tQVaUMxfta0K68FSmLVYZ645kuScdPKXBPX1_MN2joCo-5iJq9Pp5Lt8",
     SEED_WEBHOOK_URL = "", 
-      NOTIFY_PETS = { "French Fry Ferret", "Mizuchi", "Disco Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Kitsune" },
+      NOTIFY_PETS = { "French Fry Ferret", "Kitsune", "Lobster Thermidor" },
     NOTIFY_PETS_WEIGHT = {},
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",
