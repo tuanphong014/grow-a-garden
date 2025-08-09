@@ -42,8 +42,8 @@ getgenv().gagConfig = {
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1396759638090711122/zmLGGqZyxsa9IyUAxtGJMs3XfEf49vXBOjwXCcfK1WlP2vPotBhs0TmTGc5Sid4eYJ52",
-	  SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1396759638090711122/zmLGGqZyxsa9IyUAxtGJMs3XfEf49vXBOjwXCcfK1WlP2vPotBhs0TmTGc5Sid4eYJ52", 
-      NOTIFY_PETS = {  "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Kitsune" },
+	SEED_WEBHOOK_URL = "", 
+    NOTIFY_PETS = {  "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Kitsune" },
     NOTIFY_PETS_WEIGHT = {},
     DISCORD_ID = "",
     WEBHOOK_NOTE = "Ken_Physical",
