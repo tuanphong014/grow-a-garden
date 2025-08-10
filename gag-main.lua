@@ -15,7 +15,7 @@ getgenv().gagConfig = {
     ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = true,
 	FORCE_COOK_MUTATION_ONLY = true,
-	PLACE_COSMETIC = { "Cooking Cauldron", "Kitchen Crate", "Kitchen Flooring", "Kitchen Cart", "Smoothie Fountain", "Gourmet Seed Pack" }
+	PLACE_COSMETIC = { "Cooking Cauldron", "Kitchen Crate", "Kitchen Flooring", "Kitchen Cart", "Smoothie Fountain", "Gourmet Seed Pack" },
 
 
     MAX_PLANTS = 250,
