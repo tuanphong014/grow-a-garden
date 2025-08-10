@@ -1,15 +1,15 @@
 getgenv().ConfigsKaitun = {
 	Beta_Fix_Data_Sync = true,
+	NoDeletePlayer = false,
 	["Block Pet Gift"] = true,
-	Collect_Cooldown = 60, -- cooldown to collect fruit
-	JustFuckingCollectAll = false, -- Collect all (fruit not wait mutation)
+	Collect_Cooldown = 120, -- cooldown to collect fruit
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = true,
 	["Rejoin When Update"] = false,
-	
+
 	["Limit Tree"] = {
-		["Limit"] = 250,
-		["Destroy Untill"] = 200,
+		["Limit"] = 200,
+		["Destroy Until"] = 180,
 
 		["Safe Tree"] = {
 			["Tomato"] = 1,
@@ -147,9 +147,9 @@ getgenv().ConfigsKaitun = {
 		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Starfish"] = { 8, 100, 1, true }, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
+				["Starfish"] = { 5, 100, 1, true }, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
 			},
-			["Limit Upgrade"] = 5,
+			["Limit Upgrade"] = 5, -- max is 5 (more than or lower than 1 will do nothing)
 			["Equip When Done"] = {
 				["Gorilla Chef"] = { 8, 100, 1 },
 				["Sunny-Side Chicken"] = { 8, 100, 3 },
@@ -159,7 +159,7 @@ getgenv().ConfigsKaitun = {
 			},
 		},
 		Favorite_LockedPet = true,
-		Locked_Pet_Age = 80, -- pet that age > 80 will lock
+		Locked_Pet_Age = 76, -- pet that age > 60 will lock
 		Locked = {
 			"French Fry Ferret",
 			"Lobster Thermidor",
@@ -188,7 +188,10 @@ getgenv().ConfigsKaitun = {
 			"Blood Owl",
 			["Starfish"] = 10,
 		},
-		LockPet_Weight = 7, -- if Weight >= 10 they will locked
+		LockPet_Weight = 5, -- if Weight >= 10 they will locked
+		Instant_Sell = {
+			"NAME oF SOMETHING",
+		}
 	},
 
 	Webhook = {
