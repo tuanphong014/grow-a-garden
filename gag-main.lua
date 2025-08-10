@@ -30,7 +30,6 @@ getgenv().ConfigsKaitun = {
 			["Violet Corn"] = 1,
 			["Pumpkin"] = 1,
 			["Moon Melon"] = 1,
-			["Apple"] = 1,
 			["Coconut"] = 1,
 			["Feijoa"] = 1,
 			["Crown Melon"] = 1,
@@ -47,6 +46,7 @@ getgenv().ConfigsKaitun = {
 			["Lilac"] = 1,
 			["Soft Sunshine"] = 1,
 		}
+
 	},
 
 	Seed = {
