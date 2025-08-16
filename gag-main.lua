@@ -73,16 +73,8 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Events = {
-		["Cook Event"] = {
+		["Bean Event"] = {
 			Minimum_Money = 10000000, -- minimum money to start play this event
-			Rewards_Item = { -- The top is the most top mean prefered.
-				"Gorilla Chef",
-				"Gourmet Egg",
-				"Culinarian Chest",
-				"Gourmet Seed Pack",
-				"Sunny-Side Chicken",
-				-- u can add it more as u want, if it not in list.
-			}
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
@@ -91,6 +83,13 @@ getgenv().ConfigsKaitun = {
 			"Anti Bee Egg",
 		},
 		Shop = {
+			"Sprout Seed Pack",
+			"Sprout Egg",
+			"Mandrake",
+			"Silver Fertilizer",
+			"Canary Melon",
+			"Amberheart",
+			"Spriggan",
 			"Spiked Mango",
 			"Bell Pepper",
 			"Feijoa",
@@ -120,6 +119,7 @@ getgenv().ConfigsKaitun = {
 
 	Eggs = {
 		Place = {
+			"Sprout Egg",
 			"Gourmet Egg",
 			"Zen Egg",
 			"Primal Egg",
@@ -140,6 +140,7 @@ getgenv().ConfigsKaitun = {
 			"Rare Summer Egg",
 			"Bug Egg",
 			"Mythical Egg",
+			"Common Egg",
 		}
 	},
 
@@ -151,16 +152,21 @@ getgenv().ConfigsKaitun = {
 			},
 			["Limit Upgrade"] = 5, -- max is 5 (more than or lower than 1 will do nothing)
 			["Equip When Done"] = {
-				["Gorilla Chef"] = { 8, 100, 1 },
-				["Sunny-Side Chicken"] = { 8, 100, 3 },
-				["Blood Kiwi"] = { 8, 100, 2 },
-				["Rooster"] = { 8, 100, 4 },
-				["Chicken"] = { 8, 100, 5 },
+				["Tanchozuru"] = { 5, 100, 1 }, -- 5 on the first mean equip only 5 | pet , 100 mean equip only level pet lower than 100 | the one on the last is priority it will ues first if possible 
+				["Ostrich"] = { 3, 100, 2 },
+				["Blood Kiwi"] = { 8, 100 },
+				["Seal"] = { 8, 100 },
+				["Rooster"] = { 8, 100 },
+				["Starfish"] = { 5, 75 },
 			},
 		},
+		
+		Unfavorite_AllPet = false,
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 76, -- pet that age > 60 will lock
 		Locked = {
+			"Golden Goose",
+			"Golem",
 			"French Fry Ferret",
 			"Lobster Thermidor",
 			"Corrupted Kitsune",
@@ -202,9 +208,9 @@ getgenv().ConfigsKaitun = {
 			Seeds = {},
 			SeedPack = {},
 			Pets = {
-				"Kitsune", 
-				"French Fry Ferret",
-				"Lobster Thermidor"
+				"Kitsune",
+				"Golden Goose",
+				"Golem",
 			},
 			Pet_Weight_Noti = false,
 		},
