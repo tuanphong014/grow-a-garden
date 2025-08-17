@@ -12,41 +12,9 @@ getgenv().ConfigsKaitun = {
 		["Destroy Until"] = 180,
 
 		["Safe Tree"] = {
-			["Tomato"] = 1,
-			["Blood Banana"] = 1,
-			["Bamboo"] = 1,
-			["Mango"] = 1,
-			["Pineapple"] = 1,
-			["Beanstalk"] = 1,
-			["Giant Pinecone"] = 1,
-			["Sugar Apple"] = 1,
-			["Pepper"] = 1,
-			["Cacao"] = 1,
-			["Elder Strawberry"] = 1,
-			["Apple"] = 1,
-			"Bone Blossom",
-			"Grand Tomato",
-			["Ember Lily"] = 1,
-			["Violet Corn"] = 1,
-			["Pumpkin"] = 1,
-			["Moon Melon"] = 1,
-			["Coconut"] = 1,
-			["Feijoa"] = 1,
-			["Crown Melon"] = 1,
-			["Grape"] = 1,
-			["Dragon Fruit"] = 1,
-			["Cactus"] = 1,
-			["Peach"] = 1,
-			["Corn"] = 1,
-			["Banana"] = 2,
-			["Serenity"] = 1,
-			["Moon Mango"] = 1,
-			["Maple Apple"] = 1,
-			["Hive Fruit"] = 1,
-			["Lilac"] = 1,
-			["Soft Sunshine"] = 1,
+			"Moon Blossom",
+			"Fossilight",
 		}
-
 	},
 
 	Seed = {
@@ -62,6 +30,15 @@ getgenv().ConfigsKaitun = {
 				"Carrot"
 			},
 			Lock = {
+				"Maple Apple",
+				"Sunflower",
+				"Dragon Pepper",
+				"Elephant Ears",
+				"Moon Melon",
+				"Easter Egg",
+				"Moon Mango",
+				"Bone Blossom",
+				"Fossilight",
 			}
 		}
 	},
@@ -76,23 +53,21 @@ getgenv().ConfigsKaitun = {
 		["Bean Event"] = {
 			Minimum_Money = 10000000, -- minimum money to start play this event
 		},
+		MaxMoney_Restocks = 10000000,
+		Shop = { -- un comment to buy
+			"Sprout Seed Pack",
+			"Sprout Egg",
+			-- "Mandrake",
+			"Silver Fertilizer",
+			-- "Canary Melon",
+			-- "Amberheart",
+			"Spriggan",
+		},
 		["Traveling Shop"] = {
 			"Bee Egg",
 		},
 		Craft = {
 			"Anti Bee Egg",
-		},
-		Shop = {
-			"Sprout Seed Pack",
-			"Sprout Egg",
-			"Mandrake",
-			"Silver Fertilizer",
-			"Canary Melon",
-			"Amberheart",
-			"Spriggan",
-			"Spiked Mango",
-			"Bell Pepper",
-			"Feijoa",
 		},
 		Start_Do_Honey = 2000000 -- start trade fruit for honey at money
 	},
@@ -201,7 +176,7 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Webhook = {
-        UrlPet  = "https://discord.com/api/webhooks/1396759638090711122/zmLGGqZyxsa9IyUAxtGJMs3XfEf49vXBOjwXCcfK1WlP2vPotBhs0TmTGc5Sid4eYJ52",
+        UrlPet  = "https://discord.com/api/webhooks/1406338505386364959/gzpb2xUW3sVm8pKQpH205p8igYFDUO-YOmHdqHvtOhyGZBC1nNx3xp-elUFE8WfgdGuV",
         UrlSeed = "",
         PcName  = "KenPhySical",
         Noti = {
