@@ -51,9 +51,9 @@ getgenv().ConfigsKaitun = {
 
 	Events = {
 		["Bean Event"] = {
-			Minimum_Money = 10000000, -- minimum money to start play this event
+			Minimum_Money = 10_000_000, -- minimum money to start play this event
 		},
-		MaxMoney_Restocks = 10000000,
+		MaxMoney_Restocks = 10_000_000,
 		Shop = { -- un comment to buy
 			"Sprout Seed Pack",
 			"Sprout Egg",
@@ -61,7 +61,7 @@ getgenv().ConfigsKaitun = {
 			"Silver Fertilizer",
 			-- "Canary Melon",
 			-- "Amberheart",
-			"Spriggan",
+			["Spriggan"] = 8,
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
@@ -69,7 +69,7 @@ getgenv().ConfigsKaitun = {
 		Craft = {
 			"Anti Bee Egg",
 		},
-		Start_Do_Honey = 2000000 -- start trade fruit for honey at money
+		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
 
 	Gear = {
@@ -105,6 +105,8 @@ getgenv().ConfigsKaitun = {
 			"Bug Egg",
 			"Paradise Egg",
 			"Bee Egg",
+			"Rare Summer Egg",
+			"Mythical Egg",
 		},
 		Buy = {
 			"Bee Egg",
@@ -125,7 +127,7 @@ getgenv().ConfigsKaitun = {
 			["Pet"] = {
 				["Starfish"] = { 5, 100, 1, true }, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
 			},
-			["Limit Upgrade"] = 5, -- max is 5 (more than or lower than 1 will do nothing)
+			["Limit Upgrade"] = 2, -- max is 5 (more than or lower than 1 will do nothing)
 			["Equip When Done"] = {
 				["Tanchozuru"] = { 5, 100, 1 }, -- 5 on the first mean equip only 5 | pet , 100 mean equip only level pet lower than 100 | the one on the last is priority it will ues first if possible 
 				["Ostrich"] = { 3, 100, 2 },
@@ -135,10 +137,9 @@ getgenv().ConfigsKaitun = {
 				["Starfish"] = { 5, 75 },
 			},
 		},
-		
 		Unfavorite_AllPet = false,
 		Favorite_LockedPet = true,
-		Locked_Pet_Age = 76, -- pet that age > 60 will lock
+		Locked_Pet_Age = 60, -- pet that age > 60 will lock
 		Locked = {
 			"Golden Goose",
 			"Golem",
@@ -169,7 +170,7 @@ getgenv().ConfigsKaitun = {
 			"Blood Owl",
 			["Starfish"] = 10,
 		},
-		LockPet_Weight = 5, -- if Weight >= 10 they will locked
+		LockPet_Weight = 6, -- if Weight >= 10 they will locked
 		Instant_Sell = {
 			"NAME oF SOMETHING",
 		}
@@ -185,6 +186,7 @@ getgenv().ConfigsKaitun = {
 			Pets = {
 				"Kitsune",
 				"Golden Goose",
+				"Golem",
 			},
 			Pet_Weight_Noti = false,
 		},
