@@ -176,7 +176,7 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Webhook = {
-        UrlPet  = "https://discord.com/api/webhooks/1406338505386364959/gzpb2xUW3sVm8pKQpH205p8igYFDUO-YOmHdqHvtOhyGZBC1nNx3xp-elUFE8WfgdGuV",
+        UrlPet  = "https://discord.com/api/webhooks/1396759638090711122/zmLGGqZyxsa9IyUAxtGJMs3XfEf49vXBOjwXCcfK1WlP2vPotBhs0TmTGc5Sid4eYJ52",
         UrlSeed = "",
         PcName  = "KenPhySical",
         Noti = {
@@ -185,7 +185,6 @@ getgenv().ConfigsKaitun = {
 			Pets = {
 				"Kitsune",
 				"Golden Goose",
-				"Golem",
 			},
 			Pet_Weight_Noti = false,
 		},
