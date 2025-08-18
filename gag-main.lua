@@ -61,7 +61,7 @@ getgenv().ConfigsKaitun = {
 			"Silver Fertilizer",
 			-- "Canary Melon",
 			-- "Amberheart",
-			["Spriggan"] = 8,
+			"Spriggan",
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
