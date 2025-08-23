@@ -8,12 +8,28 @@ getgenv().ConfigsKaitun = {
 	["Rejoin When Update"] = false,
 
 	["Limit Tree"] = {
-		["Limit"] = 200,
-		["Destroy Until"] = 180,
+		["Limit"] = 400,
+		["Destroy Until"] = 400,
 
 		["Safe Tree"] = {
-			"Moon Blossom",
-			"Fossilight",
+            "Moon Blossom",
+            "Bone Blossom",
+            "Moon Melon",
+            "Maple Apple",
+            "Moon Mango",
+            "Dragon Pepper",
+            "Elephant Ears",
+            "Fossilight",
+            "Princess Thorn",
+			-- for the event
+            ["Blueberry"] = 15,
+            ["Strawberry"] = 15,
+            ["Apple"] = 15,
+            ["Coconut"] = 15,
+            ["Dragon Fruit"] = 15,
+            ["Mango"] = 15,
+            ["Tomato"] = 20,
+            ["Cactus"] = 15,
 		}
 	},
 
@@ -62,12 +78,17 @@ getgenv().ConfigsKaitun = {
 			-- "Canary Melon",
 			-- "Amberheart",
 			["Spriggan"] = 8,
+			-- Friend Shop
+			"Skyroot Chest",
+			"Pet Shard GiantBean",
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
 		},
 		Craft = {
 			"Anti Bee Egg",
+			"Pet Shard GiantBean",
+			"Sprout Egg",
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
@@ -105,6 +126,7 @@ getgenv().ConfigsKaitun = {
 			"Bug Egg",
 			"Paradise Egg",
 			"Bee Egg",
+			"Rare Summer Egg",
 			"Mythical Egg",
 		},
 		Buy = {
@@ -140,6 +162,7 @@ getgenv().ConfigsKaitun = {
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 60, -- pet that age > 60 will lock
 		Locked = {
+			"Griffin",
 			"Golden Goose",
 			"Golem",
 			"French Fry Ferret",
@@ -185,7 +208,7 @@ getgenv().ConfigsKaitun = {
 			Pets = {
 				"Kitsune",
 				"Golden Goose",
-				"Golem",
+				"Griffin",
 			},
 			Pet_Weight_Noti = false,
 		},
