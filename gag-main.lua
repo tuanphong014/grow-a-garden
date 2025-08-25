@@ -143,6 +143,8 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Pets = {
+		["Auto Feed"] = true,
+
 		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
@@ -166,7 +168,7 @@ getgenv().ConfigsKaitun = {
 			"Golden Goose",
 			"Golem",
 			"French Fry Ferret",
-			"Lobster Thermidor",
+			"Spaghetti Sloth",
 			"Corrupted Kitsune",
 			"Raiju",
 			"Koi",
@@ -192,7 +194,10 @@ getgenv().ConfigsKaitun = {
 			"Blood Owl",
 			["Starfish"] = 10,
 		},
-		LockPet_Weight = 6, -- if Weight >= 10 they will locked
+		LockPet_Weight = 7, -- if Weight >= 10 they will locked
+		Ignore_Pet_Weight = {
+			"NAME oF PET THAT U DONT NEED LOCK",
+		},
 		Instant_Sell = {
 			"NAME oF SOMETHING",
 		}
